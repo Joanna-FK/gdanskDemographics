@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37b547c4-ac6c-4e9e-815a-15db7ef0a650" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/Analyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/District.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/FileLoaderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="37b547c4-ac6c-4e9e-815a-15db7ef0a650" name="Default Changelist" comment="exercise is done...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gdanskDemografics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gdansk demographics.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/Analyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/Analyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskdemographics/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +56,7 @@
       <recent name="C:\Users\cp24\IdeaProjects\gdanskDemografics\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.gdanskdemographics.App" />
       <module name="gdansk demographics" />
@@ -76,49 +70,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="MenuConsola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.gdanskdemographics.MenuConsola" />
       <module name="gdansk demographics" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="gdansk demographics" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.gdanskdemographics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +86,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.MenuConsola" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +120,28 @@
       <option name="project" value="LOCAL" />
       <updated>1578828458978</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added loading of data">
+      <created>1578838070503</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578838070503</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sccaner is finished">
+      <created>1579204058229</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579204058229</updated>
+    </task>
+    <task id="LOCAL-00004" summary="District class is finished">
+      <created>1579210206386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579210206386</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +149,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -175,7 +159,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added loading of data" />
+    <MESSAGE value="sccaner is finished" />
+    <MESSAGE value="District class is finished" />
+    <MESSAGE value="exercise is done..." />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise is done..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#Inspections" timestamp="1578832640036">
@@ -186,34 +174,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1578829211094" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1578835812277">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1579207417548">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1578835812277" />
-    <state x="315" y="0" key="CommitChangelistDialog2" timestamp="1578837988395">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579207417548" />
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1579200190524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="315" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578837988395" />
+    <state x="413" y="110" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579200190524" />
+    <state x="303" y="0" key="CommitChangelistDialog2" timestamp="1579210569597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="303" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579210569597" />
     <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1578827324909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578827324909" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1578837988414">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579210689144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578837988414" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1578837988414">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579210689144" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579210689144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578837988414" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1578837988414">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579210689144" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579210689144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578837988414" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1578837988414">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579210689144" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579210689144">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578837988414" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579210689144" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1578837988414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -234,9 +226,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578832693375" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1579201374991">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1579201374991" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1578838144657">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578838144657" />
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1579094343297">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579094343297" />
     <state x="194" y="114" width="1009" height="483" key="dock-window-1" timestamp="1578827890154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="194" y="114" width="1009" height="483" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1578827890154" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gdanskDemografics$App.ic" NAME="App Coverage Results" MODIFIED="1579131133059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.sda.gdanskdemographics.*</FILTER>
+    </SUITE>
   </component>
 </project>
