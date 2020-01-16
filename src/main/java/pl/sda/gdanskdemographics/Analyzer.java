@@ -21,10 +21,10 @@ public class Analyzer {
 
         for (int i = 1; i < allDistricts.length-2; i++) {
             if (gender.equals("kobiety") || gender.equals("mężczyźni") &&
-                   singleDistrictName.getAgeUnderEighteen() < allDistricts[i].getAgeUnderEighteen() ||
-                    singleDistrictName.getAgeFromEighteenToFiftyNine()< allDistricts[i].getAgeFromEighteenToFiftyNine() ||
-                    singleDistrictName.getAgeFromSixteenToSixtyFour() < allDistricts[i].getAgeFromSixteenToSixtyFour() ||
-                    singleDistrictName.getAgeOverSixtyFour() < allDistricts[i].getAgeOverSixtyFour())
+                   singleDistrictName.getAgeUnderEighteen() > allDistricts[i].getAgeUnderEighteen() ||
+                    singleDistrictName.getAgeFromEighteenToFiftyNine()> allDistricts[i].getAgeFromEighteenToFiftyNine() ||
+                    singleDistrictName.getAgeFromSixteenToSixtyFour() > allDistricts[i].getAgeFromSixteenToSixtyFour() ||
+                    singleDistrictName.getAgeOverSixtyFour() > allDistricts[i].getAgeOverSixtyFour())
                      {
                          singleDistrictName = allDistricts[i];
                      }
